@@ -48,4 +48,4 @@ export const requestSubscriptionPromise = function (environment, config) {
     });
 }
 
-export default commitMutationPromise
+module.exports = commitMutationPromise;
