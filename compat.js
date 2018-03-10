@@ -24,7 +24,7 @@ function commitMutationPromise(environment, config) {
     });
 }
 
-export const requestSubscriptionPromise = function (environment, config) {
+export const requestSubscription = function (environment, config) {
     return new Promise(function (resolve, reject) {
         Relay.requestSubscription(
             environment,
